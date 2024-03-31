@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box style & button click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+          <div class="box"></div>
+          <button onclick="change()">Click Me</button>
+          <script>
+                 function change(){
+                    let data = document.getElementsByTagName("div")[0];
+                    data.style.height="200px";
+                    data.style.width="200px";
+                    data.style.backgroundColor="teal";
+                 }
+          </script>
+</body>
+</html>
